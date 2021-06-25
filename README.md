@@ -6,9 +6,6 @@ It is very similar to the other page I created (maticolor) but made using Flexbo
 There are few other things worth mentioning about both projects:
 1. I used viewports instead of pixels in many cases. They scale quite well on different devices. I may have abused them in some parts of the code though (in some parts of the code rem should be used, sizes should be more interconnected too.
 2. I tried to make use of comments and not to bloat the code. In CSS, I tried to put global styles first and make use of BEM methodology (although this is the thing I still need to work on).
-3. Although there are many ways to reset the style, I used normalize.css because it does not 'brute force reset' all styles. Otherwise I would probably use a Bootstrap reset.
+3. Although there are many ways to reset the style, I used normalize.css.  
 4. Of course I made them mobile-first and added media queries for better look and feel on different devices. Progressive enhancement is a standard.
-5. I could have used a preprocessor although it was probably not that much necessary for such small projects (I will correct it later). 
-6. The backend side of those pages is a thing I will need to do as priority.
-
-There are minor improvements to be made as well which includes for example creating a new subpage 'about us'
+5. I could have used a preprocessor although it was probably not that much necessary for such small projects. 
